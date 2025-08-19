@@ -1,0 +1,15 @@
+div {
+    background-color: aqua;
+}
+h1{
+    color: red;
+    background-color: blue;
+}
+p {
+    color: blue;
+    background-color: red;
+}
+button {
+    background-color: green;
+    color: white;
+}
