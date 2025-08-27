@@ -1,0 +1,9 @@
+section {
+    font-size: 15px;
+    background-color: rgb(228, 179, 187);
+}
+div {
+    font-size: 2em;
+    height: 100px;
+    width: 100px;
+}
