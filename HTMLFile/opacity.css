@@ -1,0 +1,9 @@
+div {
+    height: 200px;
+    width: 200px;
+    background-color: rgba(77,255,a,0.1);
+    background-color: #4dff00;
+}
+p {
+    color: rgba(255,5,23,0.6);
+}
