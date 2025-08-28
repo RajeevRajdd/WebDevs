@@ -1,0 +1,17 @@
+h1 {
+    text-decoration: line-through;
+}
+h2 {
+    text-decoration: underline;
+}
+h3 {
+    text-decoration: overline;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    text-decoration: red underline;
+    text-decoration: double overline;
+    text-decoration: dotted underline;
+}
