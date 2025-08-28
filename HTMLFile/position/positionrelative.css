@@ -1,16 +1,15 @@
 div {
-    height: 150px;
+    height: 100px;
     width: 100px;
-    background-color: rgb(61, 210, 61);
+    background-color: green;
     text-align: center;
     border: 2px solid black;
     margin: 20px;
     display: inline-block;
 }
-
-#static {
+#relative {
     background-color: yellow;
-    position: static;
+    position: relative;
     top: 100px;
     left: 100px;
 }

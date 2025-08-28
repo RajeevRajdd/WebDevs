@@ -1,16 +1,17 @@
 div {
-    height: 150px;
+    height: 100px;
     width: 100px;
-    background-color: rgb(61, 210, 61);
+    background-color: green;
     text-align: center;
-    border: 2px solid black;
+    border: 3px solid black;
     margin: 20px;
     display: inline-block;
+
 }
 
-#static {
+#absolute {
     background-color: yellow;
-    position: static;
     top: 100px;
-    left: 100px;
+    left: 40px;
+    position: absolute;
 }
