@@ -1,0 +1,11 @@
+div {
+    width: 400px;
+    height: 400px;
+    background-color: #7aa874;
+    margin: 10px auto;
+    /* background-image: url("https://www.rawpixel.com/search/background"); */
+    background-image: url("rm222batch2-mind-03.jpg");
+    background-size: contain;
+    background-size: cover;
+    background-size: auto;
+}
