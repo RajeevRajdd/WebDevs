@@ -1,0 +1,30 @@
+.container {
+    height: 400px;
+    width: 80%;
+    grid-gap: 10px 20px;
+    background-color: black;
+    display: grid;
+    row-gap: 10px;
+    row-gap: 40px;
+    row-gap: 100px;
+    row-gap: 5px;
+    /* grid-template-columns: 100px 100px 100px 100px 100px; */
+    column-gap: 20px;
+    column-gap: 100px;
+    column-gap: 50px;
+    grid-gap: 10px 20px;
+    grid-gap: 30px 80px;
+    column-gap: 50px;
+
+}
+
+
+
+.item {
+    height: 50px;
+    width: 100px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+    color: blue;
+}

@@ -1,0 +1,68 @@
+.container {
+    height: 300px;
+    width: 600px;
+    background-color: black;
+    display: grid;
+
+}
+
+.item {
+    height: 50px;
+    width: 100px;
+    background-color: yellowgreen;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.one {
+    height: 50px;
+    width: 100px;
+    background-color: yellowgreen;
+    border: 2px solid black;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-start: 4;
+    grid-column-start: 7;
+    grid-column-start: 2;
+
+    grid-column-start: 5;
+    grid-column-start: 20;
+    grid-column-start: 10;
+
+    grid-column-end: 4;
+    grid-column-end: 5;
+    grid-column-end: 8;
+    grid-column-end: 1;
+    grid-column-end: 10;
+    grid-column-end: 45;
+
+
+
+
+
+}
+
+.two {
+    height: 50px;
+    width: 100px;
+    background-color: yellowgreen;
+    border: 2px solid black;
+    text-align: center;
+        grid-column-end: 8;
+            grid-column-start: 7;
+
+
+
+}
+
+.three {
+    height: 50px;
+    width: 100px;
+    background-color: yellowgreen;
+    border: 2px solid black;
+    text-align: center;
+    grid-column-end: 10;
+        grid-column-start: 2;
+
+
+}
