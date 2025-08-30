@@ -1,0 +1,60 @@
+.box {
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+    animation-name: fontAnimation;
+    animation-name: widthAnimation;
+    animation-timing-function: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: 2;
+    animation-direction: normal;
+    animation-direction: alternate;
+    animation-direction: reverse;
+}
+
+@keyframes fontAnimation {
+    from { font-size: 20px;}
+    to {
+        font-size: 50px;
+    }
+}
+
+@keyframes widthAnimation {
+    from {
+        width: 10px;
+    }
+    to {
+        width: 300px;
+    }
+}
+
+.box {
+
+    animation: widthAnimate 3s ease-in infinite;
+    /* animation: widthAnimate 3s ease-in 5;
+    animation: widthAnimate 3s ease-in normal; */
+}
+
+@keyframes widthAnimate {
+    from {
+        width: 10px;
+        background-color: blue;
+
+    }
+    to {
+        width: 400px;
+        background-color: green;
+        border-radius: 15px;
+
+    }
+}
+
+/* % in Animation -> */
+
+@keyframes myName {
+    0% {background-color: green;}
+    50% {background-color: yellow;}
+    80% {background-color: red;}
+    100% {background-color: orange;}
+}
